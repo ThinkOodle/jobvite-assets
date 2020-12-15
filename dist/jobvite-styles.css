@@ -1,0 +1,129 @@
+/*** .jv-page-jobs ***/
+
+.jv-wrapper {
+    max-width: 1078px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body.jv-desktop.jv-page-jobs.ng-scope {
+    background-color: transparent;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
+}
+
+body.jv-desktop.jv-page-jobs.ng-scope * {
+	font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
+}
+
+body.jv-page-jobs h2 {
+    display: none;
+}
+
+body.jv-page-jobs h3.h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+td.jv-job-list-location {
+    color: #9AE1DF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding: 2%;
+}
+
+td.jv-job-list-name {
+    text-align: left;
+}
+
+table.jv-job-list {
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+table.jv-job-list tr {
+    background: rgba(0,0,0,0.33);
+}
+
+table.jv-job-list td.jv-job-list-name a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #9AE1DF;
+}
+
+table.jv-job-list td {
+    border-bottom: solid 1px #F68D2D;
+    padding: 18px;
+    vertical-align: top;
+}
+
+/*** .jv-page-job ***/
+
+body.jv-desktop.jv-page-job.ng-scope,
+body.jv-page-apply {
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    color: #5C6670;
+}
+
+.jv-page-job .jv-page-body .jv-wrapper,
+.jv-page-apply .jv-page-body .jv-wrapper {
+    position: relative;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.90);
+    padding: 40px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.jv-page-job .jv-header {
+    margin-top: 0;
+    font-weight: 700;
+    color: #5c6770;
+}
+
+.jv-page-job  a.jv-button.jv-button-primary.jv-button-apply, .jv-page-job a.jv-button.jv-button-primary.jv-button-apply:hover, .jv-page-job a.jv-button.jv-button-primary.jv-button-apply:visited {
+    color: #4c4c4c;
+    background: #9ae1df;
+}
+
+.jv-page-job  .jv-button {
+    background: #9AE1DF;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.jv-job-detail-top-actions {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+footer.jv-footer div.jv-wrapper hr {
+    display: none;
+}
+
+.jv-powered-by, .jv-powered-by:visited, .jv-powered-by:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+button.jv-button, button.jv-button:hover, button.jv-button:visited, button.jv-button:active {
+    color: #4c4c4c;
+    background: #9ae1df;
+    background-image: none;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size:14px;
+}
+
+.icon-powered-by {
+    display: none !important;
+}
